@@ -28,7 +28,7 @@ class Program
 
     static async Task Main()
     {
-        var apiUrl = "https://animalsfact-api.p.rapidapi.com/animals"; // Giả sử API trả về list Animal
+        var apiUrl = "https://animalsfact-api.p.rapidapi.com/animals"; 
         var client = new HttpClient();
 
         var request = new HttpRequestMessage
